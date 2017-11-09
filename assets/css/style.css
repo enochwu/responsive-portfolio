@@ -1,0 +1,288 @@
+html body {
+	margin: 0px;
+	padding-right: 0px;
+	height: 100%;
+	
+}
+
+body {
+	background-image: url("../images/background.png");
+  	/*background-repeat: repeat-y;*/
+}
+
+/*The big box that contains everything.*/
+
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -138px;
+  width: 960px;
+}
+
+/*Header and nav stuff*/
+
+#head {
+	position: fixed;
+	background-color: #ffffff;
+	min-width: 960px;
+	border-bottom: 1px solid #cccccc;
+	margin-left: 100px;
+	z-index: 9998
+}
+
+header {
+	position: absolute;
+	background-color: #4aaaa5;
+	top: 0px;
+	bottom: -1px;
+	width: 160px;
+	height: 51px;
+	float: left;
+	z-index: 2
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin: 0px;
+	padding: 10px 0;
+	color: white;
+	text-align: center;
+}
+
+nav {
+	float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute
+    bottom: -1px;
+}
+
+li {
+    display: inline;
+}
+
+.divider {
+	color: #4aaaa5;
+	font-size: 18px;
+}
+
+li a {
+	display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    height: 20px;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+/*The left-side content box*/
+
+.content {
+	clear: both;
+	padding-top: 75px;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	width: 960px;
+}
+
+article {
+	background-color: #ffffff;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #dddddd;
+	width: 650px;
+}
+
+article p {
+	color: #777777;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+hr {
+	clear: both;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: .5px solid #cccccc;
+}
+
+#profile {
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+/*Stuff for the contact page (i.e form formarting) */
+
+#contactform {
+	background-color: #ffffff;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #dddddd;
+	width: 650px;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 5px 0px 5px 5px;
+	box-sizing: border-box;
+	margin: 8px 0;
+	color: #999;
+
+}
+
+textarea {
+	width: 100%;
+	max-width: 650px;
+	padding: 5px 0px 5px 5px;
+	box-sizing: border-box;
+	margin: 8px 0;
+	color: #999;
+}
+
+#formbtn {
+	background-color: #4aaaa5;
+	color: white;
+	border: none;
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	font-size: 14px;
+}
+
+/*Stuff for the portfolio page */
+
+#portfolio {
+	background-color: #ffffff;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #dddddd;
+	width: 650px;
+}
+
+#portfolioalign {
+	box-sizing: border-box;
+}
+
+.thumbbox {
+	float: left;
+	position: relative;
+	z-index: 1;
+	width: 275px;
+	height: 200px;
+	margin-bottom: 50px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.projectlabel {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	border: none;
+	width: 275px;
+	height: 40px;
+	text-align: center;
+	z-index: 2;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	padding-bottom: 8px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+/*The right-side social media box*/
+
+aside {
+	background-color: #ffffff;
+	padding: 20px 20px 10px 20px;
+	border: 1px solid #dddddd;
+	float: left;
+	width: 200px;
+	margin-left: 25px;
+	align-content: center;
+}
+
+.icons {
+	display: inline-block;
+    margin: auto;
+	width: 50px;
+}
+
+#iconalign {
+	padding: 15px 0px 0px 20px;
+}
+
+#oversize {
+	display: inline-block;
+	margin: 0px 0px 2px 2px;
+	width: 45px;
+	height: 45px;
+}
+
+.iconlinks {
+	text-decoration: none;
+}
+
+#iconlinks:hover {
+	opacity: 0.5;
+}
+
+aside h2 {
+	font-size: 18px;
+
+}
+
+#centered {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+}
+
+/*Footer formatting*/
+
+footer {
+	position: fixed;
+	height: 80px;
+	margin-top: 50px;
+	bottom:0;
+    left:0;
+    right:0;
+	background-color: #666666;
+	width: 100%;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+	z-index: 9997;
+}
+
+#footer_contain {
+	position: relative;
+	height: 88px;
+}
+
+#footer_padding {
+	clear: both;
+	height: 88px;
+	justify-content: center;
+}
+
+#foottext {
+	margin-top: 0px;
+	padding: 30px 0;
+	color: #ffffff;
+	font-size: 14px;
+}
