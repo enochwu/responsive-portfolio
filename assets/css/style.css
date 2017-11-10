@@ -278,6 +278,7 @@ footer {
 	clear: both;
 	height: 88px;
 	justify-content: center;
+	width: 400px;
 }
 
 #foottext {
@@ -285,4 +286,145 @@ footer {
 	padding: 30px 0;
 	color: #ffffff;
 	font-size: 14px;
+}
+
+@media screen and (max-width: 980px) {
+	.wrapper {
+		width: 780px;
+	}
+	.content {
+		width: 760px;
+		margin-left: 110px;
+	}
+	#head {
+		min-width: 760px;
+		margin-left: 110px;
+	}
+	article {
+		width: 450px;
+
+	}
+	#profile {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	#portfolio {
+		width: 450px;
+	}
+	.thumbbox {
+		margin-left: 80px;
+		margin-bottom: 25px;
+	}
+
+	#contactform {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 568px;
+	}
+	.content {
+		width: 100%;
+		margin-left: 20px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+	#head {
+		min-width: 610px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-left: 70px;
+	}
+	article {
+		width: 100%;
+		margin-left: 50px;
+	}
+
+	#profile {
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+	}
+
+	aside {
+		margin-top: 20px;
+		width: 100%;
+		margin-left: 50px;
+	}
+	#portfolio {
+		width: 100%;
+		margin-left: 50px;
+	}
+	#contactform {
+		width: 100%;
+		margin-left: 50px;
+	}
+	.thumbbox {
+		margin-left: 0px;
+		margin-right: 18px;
+
+	}
+	#rightpix {
+		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.wrapper {
+		width: 440px;
+	}
+	.content {
+		width: 100%;
+	}
+	#head {
+		/*min-width: 482px;*/
+		width: 640px;
+		margin-left: 0px;
+		text-align: center;
+	}
+	header {
+		width: 640px;
+		z-index: 0;
+	}
+	nav {
+		width: 640px;
+		margin-top: 50px;
+	}
+	ul {
+		text-align: center;
+	}
+	li a {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	article {
+		width: 100%;
+		clear: left;
+		margin-top: 50px;
+		margin-left: 55px;
+	}
+	#profile {
+		width: 100%;
+	}
+	aside {
+		margin-left: 0px;
+		margin-top: 20px;
+		width: 100%;
+		margin-left: 55px;
+	}
+	#portfolio {
+		width: 100%;
+		margin-top: 50px;
+		margin-left: 55px;
+	}
+	.thumbbox {
+		margin-left: 75px;
+	}
+	#contactform {
+		width: 100%;
+		margin-left: 55px;
+		margin-top: 50px;
+	}
 }
